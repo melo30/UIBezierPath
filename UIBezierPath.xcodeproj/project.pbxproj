@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35DC432A1CA06B1800F42969 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DC43291CA06B1800F42969 /* main.m */; };
+		35DC432D1CA06B1800F42969 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DC432C1CA06B1800F42969 /* AppDelegate.m */; };
+		35DC43301CA06B1800F42969 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DC432F1CA06B1800F42969 /* ViewController.m */; };
+		35DC43331CA06B1900F42969 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35DC43311CA06B1900F42969 /* Main.storyboard */; };
+		35DC43351CA06B1900F42969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35DC43341CA06B1900F42969 /* Assets.xcassets */; };
+		35DC43381CA06B1900F42969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35DC43361CA06B1900F42969 /* LaunchScreen.storyboard */; };
+		35DC43411CA06C9E00F42969 /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DC43401CA06C9E00F42969 /* BezierPathView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35DC43251CA06B1800F42969 /* UIBezierPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIBezierPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DC43291CA06B1800F42969 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35DC432B1CA06B1800F42969 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35DC432C1CA06B1800F42969 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35DC432E1CA06B1800F42969 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		35DC432F1CA06B1800F42969 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35DC43321CA06B1900F42969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35DC43341CA06B1900F42969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35DC43371CA06B1900F42969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35DC43391CA06B1900F42969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35DC433F1CA06C9E00F42969 /* BezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		35DC43401CA06C9E00F42969 /* BezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35DC43221CA06B1800F42969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35DC431C1CA06B1800F42969 = {
+			isa = PBXGroup;
+			children = (
+				35DC43271CA06B1800F42969 /* UIBezierPath */,
+				35DC43261CA06B1800F42969 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35DC43261CA06B1800F42969 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35DC43251CA06B1800F42969 /* UIBezierPath.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35DC43271CA06B1800F42969 /* UIBezierPath */ = {
+			isa = PBXGroup;
+			children = (
+				35DC432B1CA06B1800F42969 /* AppDelegate.h */,
+				35DC432C1CA06B1800F42969 /* AppDelegate.m */,
+				35DC432E1CA06B1800F42969 /* ViewController.h */,
+				35DC432F1CA06B1800F42969 /* ViewController.m */,
+				35DC433F1CA06C9E00F42969 /* BezierPathView.h */,
+				35DC43401CA06C9E00F42969 /* BezierPathView.m */,
+				35DC43311CA06B1900F42969 /* Main.storyboard */,
+				35DC43341CA06B1900F42969 /* Assets.xcassets */,
+				35DC43361CA06B1900F42969 /* LaunchScreen.storyboard */,
+				35DC43391CA06B1900F42969 /* Info.plist */,
+				35DC43281CA06B1800F42969 /* Supporting Files */,
+			);
+			path = UIBezierPath;
+			sourceTree = "<group>";
+		};
+		35DC43281CA06B1800F42969 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35DC43291CA06B1800F42969 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35DC43241CA06B1800F42969 /* UIBezierPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35DC433C1CA06B1900F42969 /* Build configuration list for PBXNativeTarget "UIBezierPath" */;
+			buildPhases = (
+				35DC43211CA06B1800F42969 /* Sources */,
+				35DC43221CA06B1800F42969 /* Frameworks */,
+				35DC43231CA06B1800F42969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIBezierPath;
+			productName = UIBezierPath;
+			productReference = 35DC43251CA06B1800F42969 /* UIBezierPath.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35DC431D1CA06B1800F42969 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					35DC43241CA06B1800F42969 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 35DC43201CA06B1800F42969 /* Build configuration list for PBXProject "UIBezierPath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35DC431C1CA06B1800F42969;
+			productRefGroup = 35DC43261CA06B1800F42969 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35DC43241CA06B1800F42969 /* UIBezierPath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35DC43231CA06B1800F42969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35DC43381CA06B1900F42969 /* LaunchScreen.storyboard in Resources */,
+				35DC43351CA06B1900F42969 /* Assets.xcassets in Resources */,
+				35DC43331CA06B1900F42969 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35DC43211CA06B1800F42969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35DC43411CA06C9E00F42969 /* BezierPathView.m in Sources */,
+				35DC43301CA06B1800F42969 /* ViewController.m in Sources */,
+				35DC432D1CA06B1800F42969 /* AppDelegate.m in Sources */,
+				35DC432A1CA06B1800F42969 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35DC43311CA06B1900F42969 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35DC43321CA06B1900F42969 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35DC43361CA06B1900F42969 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35DC43371CA06B1900F42969 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35DC433A1CA06B1900F42969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35DC433B1CA06B1900F42969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35DC433D1CA06B1900F42969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIBezierPath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = solocares.UIBezierPath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		35DC433E1CA06B1900F42969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIBezierPath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = solocares.UIBezierPath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35DC43201CA06B1800F42969 /* Build configuration list for PBXProject "UIBezierPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35DC433A1CA06B1900F42969 /* Debug */,
+				35DC433B1CA06B1900F42969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35DC433C1CA06B1900F42969 /* Build configuration list for PBXNativeTarget "UIBezierPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35DC433D1CA06B1900F42969 /* Debug */,
+				35DC433E1CA06B1900F42969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35DC431D1CA06B1800F42969 /* Project object */;
+}
